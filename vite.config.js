@@ -19,8 +19,5 @@ export default defineConfig({
       // the proper extensions will be added
       fileName: 'by-mazzeo-ads-latest'
     }
-  },
-  server: {
-    port:3400
   }
 })
