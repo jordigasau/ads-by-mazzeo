@@ -17,7 +17,7 @@ export default defineConfig({
       entry: './src/main.js',
       name: 'by-mazzeo-ads',
       // the proper extensions will be added
-      fileName: 'by-mazzeo-ads'
+      fileName: 'by-mazzeo-ads-latest'
     }
   }
 })
