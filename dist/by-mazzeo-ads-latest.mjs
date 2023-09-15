@@ -4478,4 +4478,3 @@ const $l = `.ads{background-color:#000;color:#fff;min-height:88px}
   }
 }, Ml = /* @__PURE__ */ Pl(Rl, [["styles", [$l]]]), Al = yl(Ml);
 customElements.define("by-mazzeo-ads", Al);
-//# sourceMappingURL=by-mazzeo-ads-latest.mjs.map

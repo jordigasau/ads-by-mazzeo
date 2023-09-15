@@ -1,25 +1,19 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { fileURLToPath, URL } from 'url'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue({
       template: {
         compilerOptions: {
-          isCustomElement: (tag) => tag.includes('by-mazzeo-ads')
+          isCustomElement: (tag) => tag.includes('-')
         }
       }
     })
   ],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  },
+  
   build: {
     minify: 'esbuild',
-    sourcemap: true,
     lib: {
       entry: './src/main.js',
       name: 'by-mazzeo-ads',
