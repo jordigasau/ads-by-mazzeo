@@ -13,6 +13,8 @@ export default defineConfig({
     })
   ],
   build: {
+    minify: 'esbuild',
+    sourcemap: true,
     lib: {
       entry: './src/main.js',
       name: 'by-mazzeo-ads',
@@ -20,4 +22,5 @@ export default defineConfig({
       fileName: 'by-mazzeo-ads-latest'
     }
   }
+  
 })
