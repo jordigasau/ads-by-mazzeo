@@ -11,14 +11,17 @@ export default defineConfig({
       }
     })
   ],
-  
+
   build: {
     minify: 'esbuild',
     lib: {
       entry: './src/main.js',
-      name: 'by-mazzeo-ads',
+      name: 'by-mazzeo-ads-latest',
       // the proper extensions will be added
-      fileName: 'by-mazzeo-ads-latest'
+      fileName: 'by-mazzeo-ads-latest-v3'
     }
+  },
+  define: {
+    'process.env': process.env
   }
 })
