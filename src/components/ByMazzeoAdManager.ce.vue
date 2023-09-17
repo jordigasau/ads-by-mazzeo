@@ -1,6 +1,6 @@
 <template>
   <div class="ads" style="text-align: center;">
-    ByMazzeo mola més que <input type="text" v-model="text">
+    ByMazzeo mola més que {{ text }} <input type="text" v-model="text">
   </div>
   
 </template>
