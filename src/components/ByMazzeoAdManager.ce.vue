@@ -1,19 +1,15 @@
 <template>
-  <div class="ads">
-    hello ad manager {{ text }}
-    <input type="text" v-model="text">
+  <div class="ads" style="text-align: center;">
+    ByMazzeo
   </div>
   
 </template>
 <script setup>
-import { ref } from 'vue';
 
-const text = ref('')
 </script>
 
 <style>
 .ads{
   background-color: black; 
   color:white;
-  min-height: 88px;
 }</style>
