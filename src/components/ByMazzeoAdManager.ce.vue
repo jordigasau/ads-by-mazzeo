@@ -11,6 +11,6 @@ const text = ref('')
 
 <style>
 .ads{
-  background-color: black; 
+  background-color: rgb(78, 84, 162); 
   color:white;
 }</style>

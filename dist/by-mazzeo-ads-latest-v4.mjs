@@ -3480,7 +3480,7 @@ function Zi() {
 }
 const Cs = (...e) => {
   Zi().render(...e);
-}, Ji = `.ads{background-color:#000;color:#fff}
+}, Ji = `.ads{background-color:#4e54a2;color:#fff}
 `, Yi = (e, t) => {
   const n = e.__vccOpts || e;
   for (const [s, o] of t)
