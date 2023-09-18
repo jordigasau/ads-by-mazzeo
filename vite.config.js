@@ -6,7 +6,9 @@ export default defineConfig({
     vue({
       template: {
         compilerOptions: {
-          isCustomElement: (tag) => tag.includes('-')
+          isCustomElement: (tag) => { 
+            return tag.includes('App')
+          }
         }
       }
     })
