@@ -7,9 +7,11 @@
         Apuntar-se al newsletter
       </div>
       <div class="column content" style="">
-           <h1>Streaming Satellites</h1>
+        <div>
+          <h1>Streaming Satellites</h1>
            <h3>23 Novembre 2023, La Mirona, Salt</h3>
         </div>
+      </div>
       <div class="column" style="justify-self: start; align-self:end;">
          Consultar agenda
       </div>
