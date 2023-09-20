@@ -51,7 +51,7 @@ const height = computed(() => {
   return 0
 })
 
-const backgroundImage = "url('https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"
+const backgroundImage = "url('https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"
 
 </script>
 
