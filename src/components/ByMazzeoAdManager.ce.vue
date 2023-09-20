@@ -7,7 +7,8 @@
         top-right
       </div>
       <div class="column content" style="">
-           <h1>Streaming Satellites a la Mironaaaa</h1>
+           <h1>Streaming Satellites</h1>
+           <h3>23 Novembre 2023, La Mirona, Salt</h3>
         </div>
       <div class="column" style="justify-self: start; align-self:end;">
          bottom-left
