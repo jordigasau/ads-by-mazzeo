@@ -1,5 +1,5 @@
 <template>
-  <div ref="display" class="container">
+  <div ref="display" class="container" style="background-color: black;">
       <div class="column" style="justify-self: start;">
         top-left
       </div>
@@ -75,10 +75,10 @@ a{
   max-width: 1200px;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr ;
-  
-  
-  grid-auto-rows: 150px;
   background-color: black;
+  
+
+  grid-auto-rows: 150px;
   color:white;
 }
 
@@ -96,6 +96,7 @@ a{
 h1{
   margin:0;
   font-size: 10vw;
+  line-height: 1em;
 }
 
 .btn{
