@@ -1,10 +1,10 @@
 <template>
   <div ref="display" class="container" style="background-color: black;">
       <div class="column" style="justify-self: start;">
-        top-lefty
+        ads
       </div>
       <div class="column" style="justify-self: end;">
-        top-right
+        
       </div>
       <div class="column content" style="">
            <h1>Streaming Satellites</h1>
