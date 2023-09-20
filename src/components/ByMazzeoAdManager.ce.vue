@@ -7,7 +7,7 @@
         top-right
       </div>
       <div class="column content" style="">
-           <h1>Streaming Satellites a la Mirona</h1>
+           <h1>Streaming Satellites a la Mironaaaa</h1>
         </div>
       <div class="column" style="justify-self: start; align-self:end;">
          bottom-left
