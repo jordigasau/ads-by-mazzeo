@@ -99,6 +99,7 @@ a{
 h1{
   margin:0;
   font-size: 8vw;
+  font-weight: 700;
   line-height: 1em;
 }
 
