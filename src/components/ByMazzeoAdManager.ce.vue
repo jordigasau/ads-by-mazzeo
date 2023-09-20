@@ -73,7 +73,7 @@ a{
   display: grid;
   aspect-ratio: 3 / 2;
   max-width: 1200px;
-  grid-template-rows: 1fr auto 1fr;
+  grid-template-rows: 10% auto 10%;
   grid-template-columns: 1fr 1fr ;
   background-color: black;
   
