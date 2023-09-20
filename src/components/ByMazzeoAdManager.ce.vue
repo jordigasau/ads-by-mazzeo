@@ -1,7 +1,7 @@
 <template>
   <div ref="display" class="container" style="background-color: black;">
       <div class="column" style="justify-self: start;">
-        ads
+        Promocions i anuncis Ajuntament de Salt
       </div>
       <div class="column" style="justify-self: end;">
         
