@@ -4,14 +4,14 @@
         Promocions i anuncis Ajuntament de Salt
       </div>
       <div class="column" style="justify-self: end;">
-        
+        Apuntar-se al newsletter
       </div>
       <div class="column content" style="">
            <h1>Streaming Satellites</h1>
            <h3>23 Novembre 2023, La Mirona, Salt</h3>
         </div>
       <div class="column" style="justify-self: start; align-self:end;">
-         bottom-left
+         Consultar agenda
       </div>
       <div class="column" style="justify-self: end; align-self:end;">
         <button class="btn">Comprar entrades</button>
@@ -57,7 +57,9 @@ const backgroundImage = "url('https://images.pexels.com/photos/1387174/pexels-ph
 
 <style lang="css">
 @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
-
+*{
+  font-weight: 400;
+}
 h1{
   font-family: 'Skranji', cursive;
 }
