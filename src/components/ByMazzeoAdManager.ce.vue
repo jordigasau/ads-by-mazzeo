@@ -1,7 +1,7 @@
 <template>
   <div ref="display" class="container" style="background-color: black;">
       <div class="column" style="justify-self: start;">
-        top-left
+        top-lefty
       </div>
       <div class="column" style="justify-self: end;">
         top-right
@@ -95,7 +95,6 @@ a{
 
 h1{
   margin:0;
-  line-height: 1em;
 }
 
 .btn{
