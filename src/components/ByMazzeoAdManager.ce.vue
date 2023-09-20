@@ -81,7 +81,6 @@ a{
   background-color: black;
   
 
-  grid-auto-rows: 150px;
   color:white;
 }
 
