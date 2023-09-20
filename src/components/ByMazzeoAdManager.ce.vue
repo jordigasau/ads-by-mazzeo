@@ -95,7 +95,6 @@ a{
 
 h1{
   margin:0;
-  font-size: 10vw;
   line-height: 1em;
 }
 

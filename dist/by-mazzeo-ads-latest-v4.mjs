@@ -3477,7 +3477,7 @@ function Xo() {
 const Ts = (...e) => {
   Xo().render(...e);
 };
-const Yo = `@import"https://fonts.googleapis.com/css?family=Roboto&display=swap";h1{font-family:Roboto,sans-serif}a{color:#f0f8ff}.container{background-image:var(--1e4e20e4);background-repeat:no-repeat;background-size:cover;font-family:Roboto,sans-serif;display:grid;aspect-ratio:3 / 2;max-width:1200px;grid-template-rows:1fr 1fr 1fr;grid-template-columns:1fr 1fr;grid-auto-rows:150px;background-color:#000;color:#fff}.content{grid-column-start:1;grid-column-end:3;align-self:center;justify-self:center}.column{padding:30px}h1{margin:0;font-size:10vw}.btn{padding:10px 20px;border-radius:20px;border:none;background-color:#fff;color:#000}
+const Yo = `@import"https://fonts.googleapis.com/css?family=Roboto&display=swap";h1{font-family:Roboto,sans-serif}a{color:#f0f8ff}.container{background-image:var(--0f6cac62);background-repeat:no-repeat;background-size:cover;font-family:Roboto,sans-serif;display:grid;aspect-ratio:3 / 2;max-width:1200px;grid-template-rows:1fr 1fr 1fr;grid-template-columns:1fr 1fr;background-color:#000;grid-auto-rows:150px;color:#fff}.content{grid-column-start:1;grid-column-end:3;align-self:center;justify-self:center}.column{padding:30px}h1{margin:0;line-height:1em}.btn{padding:10px 20px;border-radius:20px;border:none;background-color:#fff;color:#000}
 `, Zo = (e, t) => {
   const n = e.__vccOpts || e;
   for (const [s, i] of t)
@@ -3489,7 +3489,7 @@ const Yo = `@import"https://fonts.googleapis.com/css?family=Roboto&display=swap"
   __name: "ByMazzeoAdManager.ce",
   setup(e) {
     Go((i) => ({
-      "1e4e20e4": el
+      "0f6cac62": el
     }));
     const t = ss(null), n = ss(null);
     Nn(() => {
@@ -3501,7 +3501,8 @@ const Yo = `@import"https://fonts.googleapis.com/css?family=Roboto&display=swap"
     return pn(() => t.value ? parseInt(t.value.width) : 0), pn(() => t.value ? parseInt(t.value.height) : 0), (i, r) => (ro(), co("div", {
       ref_key: "display",
       ref: n,
-      class: "container"
+      class: "container",
+      style: { "background-color": "black" }
     }, Qo, 512));
   }
 }, nl = /* @__PURE__ */ Zo(tl, [["styles", [Yo]]]);
