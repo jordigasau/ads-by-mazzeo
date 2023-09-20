@@ -56,10 +56,10 @@ const backgroundImage = "url('https://images.pexels.com/photos/1387174/pexels-ph
 </script>
 
 <style lang="css">
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 
 h1{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Skranji', cursive;
 }
 a{
   color: aliceblue;
