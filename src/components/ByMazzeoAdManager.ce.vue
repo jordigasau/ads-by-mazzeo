@@ -1,16 +1,17 @@
 <template>
   <div ref="display" class="container" style="background-color: black;">
       <div class="column" style="justify-self: start;">
-        Promocions i anuncis Ajuntament de Salt
+        Promocions i anuncis 
+        <br>Ajuntament de Salt
       </div>
       <div class="column" style="justify-self: end;">
-        Apuntar-se al newsletter
+         23 Novembre 2023 <br> La Mirona, Salt
       </div>
       <div class="column content" style="">
-        <div>
+        
           <h1>Streaming Satellites</h1>
-           <h3>23 Novembre 2023, La Mirona, Salt</h3>
-        </div>
+         
+        
       </div>
       <div class="column" style="justify-self: start; align-self:end;">
          Consultar agenda
@@ -61,6 +62,8 @@ const backgroundImage = "url('https://images.pexels.com/photos/1387174/pexels-ph
 @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 *{
   font-weight: 400;
+  font-size: clamp(12px, 2vw, 20px);
+  color:grey
 }
 h1{
   font-family: 'Skranji', cursive;
@@ -90,6 +93,7 @@ a{
   grid-column-start: 1;
   grid-column-end: 3;
   align-self:center;
+  text-align: center;
   justify-self: center;
 }
 
@@ -99,9 +103,10 @@ a{
 
 h1{
   margin:0;
-  font-size: 8vw;
+  font-size: clamp(50px, 10vw, 120px);
   font-weight: 700;
   line-height: 1em;
+  color:white;
 }
 
 .btn{
